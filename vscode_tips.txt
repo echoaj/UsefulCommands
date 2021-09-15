@@ -17,10 +17,15 @@ htmltagwrap
 Auto Rename Tag
 JavaScript (ES6) Code Snippets
 
-
 When Creating C# Project
 TYPE: dotnet new console
 TYPE: dotnet new gitignore
 
 Turn off autocompletion after .
 In settings uncheck Editor: Accept Suggestion On Commit Character
+
+Turn off inline (n) refernces.
+Turn off Editor:Code Lense in settings
+
+Turn off selection code runner (tempCodeRunnerFile...)
+Turn on Code-runner:Ignore Selection in settings
