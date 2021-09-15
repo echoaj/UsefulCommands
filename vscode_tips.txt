@@ -2,7 +2,7 @@
 ------------------------------------ NOTES ------------------------------------
 
 Installing extensions does not install software on system.
-Output in vscode is readonly.  Can't type anythin in.
+Output in vscode is readonly.  Can't type anything in.
 
 ------------------- VSCODE LANGUAGE DEVELOPMENT ENVIRONMENT -------------------
 
