@@ -1,4 +1,9 @@
 
+# Install gcc and build-essential
+sudo apt install gcc # afterward socket and pthread library can be included
+sudo apt install build-essential # Installs meta packages, g++/GNU compiler, gcc, dpkg-dev, G++
+# More Info https://linuxhint.com/install-build-essential-ubuntu/
+
 # Send File to MAC
 scp file.txt alexjoslin@192.168.1.221:~/Desktop/
 
