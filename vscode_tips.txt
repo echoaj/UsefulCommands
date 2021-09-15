@@ -1,4 +1,32 @@
-------------------------------- VSCODE ------------------------------
+
+------------------- VSCODE LANGUAGE DEVELOPMENT ENVIRONMENT -------------------
+
+Pre-actions
+Install Code Runner vscode extension
+Enable Code-runner:Ignore Selection in settings
+
+C
+Create C file
+Install C/C++ vscode extension
+
+C#
+Install C# vscode extension
+TYPE IN TERMINAL: 
+    dotnet new console
+    dotnet new gitignore
+
+Web
+Install
+    Open in Browser
+    Browser Preview
+    Live Server
+    htmltagwrap
+    Auto Rename Tag
+    JavaScript (ES6) Code Snippets
+
+
+------------------------------- VSCODE SETTINGS -------------------------------
+
 Reformat Code
 SHIFT+ALT+F
 
@@ -7,18 +35,6 @@ Preferences -> Settings -> Explorer:Compact Folders - Disable
 
 Create Snippet Rule
 Preferences -> Settings -> User Snippets
-
-For Web Install
-Open in Browser
-Browser Preview
-Live Server
-htmltagwrap
-Auto Rename Tag
-JavaScript (ES6) Code Snippets
-
-When Creating C# Project
-TYPE: dotnet new console
-TYPE: dotnet new gitignore
 
 Turn off autocompletion after .
 In settings uncheck Editor: Accept Suggestion On Commit Character
