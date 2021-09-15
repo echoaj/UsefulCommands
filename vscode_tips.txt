@@ -1,0 +1,26 @@
+
+------------------------------- VSCODE ------------------------------
+Reformat Code
+SHIFT+ALT+F
+
+Disable Folders/Like/This
+Preferences -> Settings -> Explorer:Compact Folders - Disable
+
+Create Snippet Rule
+Preferences -> Settings -> User Snippets
+
+For Web Install
+Open in Browser
+Browser Preview
+Live Server
+htmltagwrap
+Auto Rename Tag
+JavaScript (ES6) Code Snippets
+
+
+When Creating C# Project
+TYPE: dotnet new console
+TYPE: dotnet new gitignore
+
+Turn off autocompletion after .
+In settings uncheck Editor: Accept Suggestion On Commit Character
