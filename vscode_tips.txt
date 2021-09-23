@@ -67,3 +67,6 @@ Turn on Code-runner:Clear Previous Output in settings
 
 Don't show output execution messages
 Turn off Code-runner:Show Execution Messages
+
+Refomat Code to automatically insert semicolons after statements when pressing shift + alt + f
+Select "insert" in JavaScript->Format: Semicolons  ( can also do the same for TypeScript )
