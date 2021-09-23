@@ -33,6 +33,7 @@ Install
     htmltagwrap
     Auto Rename Tag
     JavaScript (ES6) Code Snippets
+    Simple React Snippets
 
 Bash/zsh
     Better Shell Syntax vscode extension
