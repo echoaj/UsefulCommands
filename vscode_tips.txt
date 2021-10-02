@@ -4,6 +4,20 @@
 Installing extensions does not install software on system.
 Output in vscode is readonly.  Can't type anything in.
 
+------------------------------------ TIPS -------------------------------------
+
+Ctrl + p -> Search files by name
+Ctrl + Shift + P -> Command Palette
+
+Open Keyboard Shortcuts
+> Preferences: Open Keyboard Shortcuts
+
+Select Code Block (Tip: add to Keyboard Bindings Ctrl + ALT + B)
+> Emmet: Balance (outward)
+
+Open Browser Preview Extension
+> Browser Preview: Open Active File in Preview
+
 ------------------- VSCODE LANGUAGE DEVELOPMENT ENVIRONMENT -------------------
 
 Pre-actions
