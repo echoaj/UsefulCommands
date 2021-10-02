@@ -18,6 +18,9 @@ Select Code Block (Tip: add to Keyboard Bindings Ctrl + ALT + B)
 Open Browser Preview Extension
 > Browser Preview: Open Active File in Preview
 
+Undo last git commit (undoes commit, cleans commit history, and resets branch before git)
+> Git: Undo Last Commit
+
 ------------------- VSCODE LANGUAGE DEVELOPMENT ENVIRONMENT -------------------
 
 Pre-actions
