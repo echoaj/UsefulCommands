@@ -4,6 +4,23 @@
 Installing extensions does not install software on system.
 Output in vscode is readonly.  Can't type anything in.
 
+------------------------------------ TIPS -------------------------------------
+
+Ctrl + p -> Search files by name
+Ctrl + Shift + P -> Command Palette
+
+Open Keyboard Shortcuts
+> Preferences: Open Keyboard Shortcuts
+
+Select Code Block (Tip: add to Keyboard Bindings Ctrl + ALT + B)
+> Emmet: Balance (outward)
+
+Open Browser Preview Extension
+> Browser Preview: Open Active File in Preview
+
+Undo last git commit (undoes commit, cleans commit history, and resets branch before git)
+> Git: Undo Last Commit
+
 ------------------- VSCODE LANGUAGE DEVELOPMENT ENVIRONMENT -------------------
 
 Pre-actions
@@ -71,3 +88,6 @@ Turn off Code-runner:Show Execution Messages
 
 Refomat Code to automatically insert semicolons after statements when pressing shift + alt + f
 Select "insert" in JavaScript->Format: Semicolons  ( can also do the same for TypeScript )
+
+Disable Enable Prview so tabs remain open reguardless of if you try to open another file.
+Turn off Workbench -> Editor:Enable Preview
