@@ -6,6 +6,7 @@ Output in vscode is readonly.  Can't type anything in.
 
 ------------------------------------ TIPS -------------------------------------
 
+Ctrl + Shift + f -> Search within all files
 Ctrl + p -> Search files by name
 Ctrl + Shift + P -> Command Palette
 
