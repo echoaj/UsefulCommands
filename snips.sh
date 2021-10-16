@@ -43,10 +43,6 @@ sudo microcom -p /dev/ttyUSB0 -s 115200
 #Access qconnect through ssh
 ssh root@192.168.0.133
 
-#Personal Access Token
-2LqvgWhVoEstzkjekPbh
-VbALagh3xcLCrebKWuzY
-
 #Personal Access token git lcoal
 Ns4kez_R6Gjie7Lp2xv3
 

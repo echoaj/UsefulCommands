@@ -39,6 +39,7 @@ Note:
 
 C#
 Install C# vscode extension
+May need to install .net Framework
 TYPE IN TERMINAL: 
     dotnet new console
     dotnet new gitignore
