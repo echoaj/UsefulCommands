@@ -1,0 +1,3 @@
+OPEN TERMINAL AT FOLDER LOCATION
+Click on folder
+control + t or finder -> services -> "New Terminal at Folder"

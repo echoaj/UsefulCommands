@@ -3,6 +3,8 @@
 # Remeber User
 git config —global user.name “echoaj”
 git config —global user.email “aljoslin13@yahoo.com”
+# Save User and Password --next time you log in it should save
+git config --global credential.helper store
 # View git config settings
 git config —list
 # list all the remote origins in local repo
@@ -19,6 +21,8 @@ git reset app.py
 git log 			
 # show changes I have made to the code
 git diff
+# Rename local branch
+git branch -m <oldname> <newname>
 
 
 # WORKFLOW BRANCHING
@@ -66,6 +70,16 @@ git commit -m “first commit”
 git remote add <name> <url>		                    # <name> usually origin
 git push --set-upstream origin master               # git push --set-upstream <name> <remote-branch-name>
 
+
+# Create a local branch and push to newly created remote branch
+git branch 
+git checkout
+git add .
+git commit -m "first commit"
+# Make Remote branch
+git fetch
+git branch --set-upstream-to origin/taskgurufinal
+# Unfinished
 
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL

@@ -1,0 +1,3 @@
+PYCHARM / INTELLIJ TIPS
+https://www.jetbrains.com/help/idea/content-roots.html#configure-folders
+

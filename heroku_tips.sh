@@ -1,6 +1,9 @@
 
 # DEPLOY FLASK APP USING HEROKU CLI
 
+# Flask Directory Hierarchy
+https://flask.palletsprojects.com/en/2.0.x/tutorial/layout/?highlight=gitignore
+
 # Sign up
 # Creat new app on Heroku.com
 # Download Heroku CLI
@@ -30,3 +33,18 @@ git push heroku master
 
 heroku logs --tail
 
+# deploy flask on heroku trough github
+touch .gitignore
+# Place the followng below in .gitignore file
+https://flask.palletsprojects.com/en/2.0.x/tutorial/layout/?highlight=gitignore
+or
+https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+# Add requirements.txt, Procfile, install gunicorn
+pip3 install --upgrade pip --user
+pip3 freeze > requirements.txt
+pip install gunicorn
+touch Procile
+echo "web: gunicorn app:app" > Procfile
+# create app on heroku
+# create github repo and upload files
+# connect to github repo through heroku
