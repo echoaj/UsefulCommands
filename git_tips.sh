@@ -23,6 +23,8 @@ git log
 git diff
 # Rename local branch
 git branch -m <oldname> <newname>
+# Create local branch from remote branch
+git checkout -b <new_branch_name> <remote_name>/<remote_branch_name>
 
 
 # WORKFLOW BRANCHING
