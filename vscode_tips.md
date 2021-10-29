@@ -111,5 +111,8 @@ Turn off `Code-runner:Show Execution Messages`
 ### Refomat Code to automatically insert semicolons after statements when pressing shift + alt + f
 Select "insert" in JavaScript->`Format:Semicolons`  ( can also do the same for TypeScript )
 
-### Disable Enable Prview so tabs remain open reguardless of if you try to open another file.
+### Disable Enable Prview so tabs remain open reguardless of if you try to open another file
 Turn off Workbench -> `Editor:Enable Preview`
+
+### Disable open editors pane from explorer sidebar
+Set to 0 Explorer > `Open Editors:Visible`
