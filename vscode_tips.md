@@ -18,6 +18,9 @@
 `Shift + Alt + f`
 ### Command Palette
 `Ctrl + Shift + p`
+### Open settings
+Windows: `Ctrl + ,`\
+Mac: `command + ,`
 
 ## Commands
 ### Open Keyboard Shortcuts
