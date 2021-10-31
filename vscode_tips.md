@@ -40,6 +40,9 @@
 > Transform to Tile Case\
 > Transform to Snake Case
 
+### Install 'code' Shell Command PATH 
+> Shell Command : Install 'code' command in PATH
+
 <br>
 <br>
 
