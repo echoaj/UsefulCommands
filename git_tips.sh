@@ -59,7 +59,7 @@ git remote add upstream https:url…
 git fetch upstream				                    # update origin
 git checkout master				                    # go to branch you want to merge it with
 git merge upstream/master			                # if already on master branch this will merge
-// upstream master to your master
+# upstream master to your master
 git pull origin master –allow—unrelated—histories   # did this because of error
 
 
@@ -82,6 +82,10 @@ git commit -m "first commit"
 git fetch
 git branch --set-upstream-to origin/taskgurufinal
 # Unfinished
+
+# errors and fixs
+# Updates were rejected because the tip of your current branch is behind
+git push -f origin master
 
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL
