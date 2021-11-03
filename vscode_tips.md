@@ -21,6 +21,14 @@
 ### Open settings
 Windows: `Ctrl + ,`\
 Mac: `command + ,`
+### Duplicate line
+`Alt + Shift + Down/Up`
+### Move line
+`Alt + Down/Up`
+## Highlight Tokens
+`Alt + Shift + Right`
+## Highlight Blocks
+`Alt + Left`
 
 ## Commands
 ### Open Keyboard Shortcuts

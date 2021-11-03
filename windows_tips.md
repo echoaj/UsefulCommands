@@ -17,6 +17,9 @@
 ## Windows + ;
 `emoji keyboard`
 
+## Control Windows
+`windows + ArrowKeys`
+
 <br>
 
 # Power Shell
