@@ -25,6 +25,8 @@ git diff
 git branch -m <oldname> <newname>
 # Create local branch from remote branch
 git checkout -b <new_branch_name> <remote_name>/<remote_branch_name>
+# Undo staged file (undo add)
+git restore --staged .
 
 
 # WORKFLOW BRANCHING
