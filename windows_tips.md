@@ -48,3 +48,12 @@ If an issue with running the script exists, type the command below:
 > Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 Enter Y and re-run the script.
+
+## Check what servers are running
+> netstat -abo
+
+## Grep
+> netstat -ano | findstr 5000
+
+## Kill Process
+> taskkill /PID 20396 /F
