@@ -29,6 +29,8 @@ Mac: `command + ,`
 `Alt + Shift + Right`
 ## Highlight Blocks
 `Alt + Left`
+## Delete Current Line
+`Ctrl + x`
 
 ## Commands
 ### Open Keyboard Shortcuts
