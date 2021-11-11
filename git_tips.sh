@@ -89,6 +89,17 @@ git branch --set-upstream-to origin/taskgurufinal
 # Updates were rejected because the tip of your current branch is behind
 git push -f origin master
 
+# Contribute to open soure project
+On github fork
+git clone https://github.com/echoaj/python-mini-projects.git
+# Keep fork in sync before making changes
+git remote add upstream https://github.com/Python-World/python-mini-projects.git
+git fetch upstream
+git pull upstream master
+git push
+
+
+
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL
 # Like this: https://echoaj25:echovids2u@github.com/echoaj25/UnitConverter.git
