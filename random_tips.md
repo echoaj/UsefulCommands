@@ -46,6 +46,9 @@ restart VM or execture the command below\
 
 
 ## Commands
+### Start Docker Daemon
+Open Docker app.  Docker documentation says you can run `dockerd` but it didn't work for me.
+
 ### Display images that are available
 ##### An image is every file that makes up just enough of the operating system
 `docker images`
@@ -73,11 +76,16 @@ restart VM or execture the command below\
 `docker rm <container_name>`
 
 ### Build a docker image
-`docker build -t <repository_name> <path_to_place_file>`
+`docker build -t <repo_name> <path_to_place_file>`
 
 ### Create, Push, Pull Docker Container
 * Navigate to the source file your code is in
 * Create a Dockerfile
+* `docker build -t <repo_name> <path_to_place_file>`
+* `docker run --rm <repo_name>`
 * `docker login`
 * `docker tag <repo_name> echoaj/<repo_name>:1.0.0`
 * `docker push echoaj/<repo_name>:1.0.0`
+* Start docker app on device.
+* `docker pull echoaj/<repo_name>:1.0.0`
+* `docker run --rm echoaj/<repo_name>:1.0.0`
