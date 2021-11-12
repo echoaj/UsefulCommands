@@ -27,6 +27,23 @@ When you type `python3 app.py` it will search for `python.exe` in.
 * Don't leave important thing in an unamed stopped container.  Otherwise you run the risk of accidentally deleting a seemingly unimportant container and then all your important stuff is gone.
 * Docker files are programs used to describe how to create an image and you build this image by using the `docker build` command.  Docker files are not shell scripts.  Operations need to on the same line if you want both of them to run.
 * Include installer in your project.
+* [Resource](https://www.howtoforge.com/tutorial/how-to-create-docker-images-with-dockerfile/)
+
+## Linux Installation
+`sudo apt-get update`\
+`sudo apt-get install ca-certificates curl gnupg lsb-release`\
+` curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg`\
+`echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`\
+`sudo apt-get update`\
+`sudo apt-get install docker-ce docker-ce-cli containerd.io`\
+`sudo docker run hello-world`\
+Make it so you don't need to add sudo in front\
+`sudo groupadd docker`\
+`sudo usermod -aG docker $USER`\
+restart VM or execture the command below\
+`newgrp docker`\
+`docker run hello-world` should work now.
+
 
 ## Commands
 ### Display images that are available
@@ -56,4 +73,11 @@ When you type `python3 app.py` it will search for `python.exe` in.
 `docker rm <container_name>`
 
 ### Build a docker image
-`docker build -t <name_of_resut> <path_to_place_file>`
+`docker build -t <repository_name> <path_to_place_file>`
+
+### Create, Push, Pull Docker Container
+* Navigate to the source file your code is in
+* Create a Dockerfile
+* `docker login`
+* `docker tag <repo_name> echoaj/<repo_name>:1.0.0`
+* `docker push echoaj/<repo_name>:1.0.0`

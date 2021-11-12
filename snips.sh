@@ -26,6 +26,9 @@ sleep 100 &
 fg %3
 bg %8
 
+# check what version of ubuntu you are running
+cat /etc/lab-release
+
 #-----------------------------------------------------------------
 # Configure powerlevel10k
 p10k configure
