@@ -29,6 +29,26 @@ bg %8
 # check what version of ubuntu you are running
 cat /etc/lab-release
 
+# curl get request to localhost API
+curl localhost:8080/api/v1/person   # run spring java demon
+
+# curl post request to localhost API   
+# Inserting {"name": "James Foster"}
+curl --header "Content-Type: application/json" -d "{\"name\":\"James Foster\"}" localhost:8080/api/v1/person -v
+
+# Environment Variables
+# User defined variables lowercase
+# Global variables uppercase
+myvar="cowboy"             # create local variable
+echo $myvar                # print local variable
+printenv HOME              # print global variable
+# User defined variables can't viewed in sub shells.  They end when you close the shell
+export myvar               # make variable local
+unset myvar                # remove variable
+
+# How to create a custom bash command
+https://pavanchitneedi.medium.com/how-to-create-custom-commands-in-linux-782b4d52be79
+
 #-----------------------------------------------------------------
 # Configure powerlevel10k
 p10k configure
