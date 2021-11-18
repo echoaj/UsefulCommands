@@ -90,7 +90,7 @@ git branch --set-upstream-to origin/taskgurufinal
 git push -f origin master
 
 # Contribute to open soure project
-On github fork
+On github project page click fork
 git clone https://github.com/echoaj/python-mini-projects.git
 # Keep fork in sync before making changes
 git remote add upstream https://github.com/Python-World/python-mini-projects.git
@@ -98,7 +98,8 @@ git fetch upstream
 git pull upstream master
 git push
 
-
+# Pull Request resource
+https://zippyzsquirrel.github.io/squirrel-u/1_SquirrelU/4_GitHub/2_basicConcepts/6_ApproveMerge/
 
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL

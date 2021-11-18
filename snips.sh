@@ -39,12 +39,15 @@ curl --header "Content-Type: application/json" -d "{\"name\":\"James Foster\"}" 
 # Environment Variables
 # User defined variables lowercase
 # Global variables uppercase
-myvar="cowboy"             # create local variable
-echo $myvar                # print local variable
-printenv HOME              # print global variable
+myvar="cowboy"                   # create local variable
+echo $myvar                      # print local variable
+printenv HOME                    # print global variable
 # User defined variables can't viewed in sub shells.  They end when you close the shell
-export myvar               # make variable local
-unset myvar                # remove variable
+export myvar                     # make variable local
+unset myvar                      # remove variable
+PATH=$PATH:/home/path/to/dir     # Add to global PATH variable
+PATH=$PATH:.                     # Add directory I am currently in to path
+# place PATH=$PATH:/home/path/to/dir in .bashrc to make change perminant
 
 # How to create a custom bash command
 https://pavanchitneedi.medium.com/how-to-create-custom-commands-in-linux-782b4d52be79
