@@ -93,10 +93,10 @@ git push -f origin master
 On github project page click fork
 git clone https://github.com/echoaj/python-mini-projects.git
 # Keep fork in sync before making changes
-git remote add upstream https://github.com/Python-World/python-mini-projects.git
-git fetch upstream
-git pull upstream master
-git push
+git remote add upstream https://github.com/Python-World/python-mini-projects.git    # adds upstream repo
+git fetch upstream              # gets forked repo's remote branch
+git pull upstream master        # pulls code & updates local repo
+git push                        # pushes new code to your repo
 
 # Pull Request resource
 https://zippyzsquirrel.github.io/squirrel-u/1_SquirrelU/4_GitHub/2_basicConcepts/6_ApproveMerge/
