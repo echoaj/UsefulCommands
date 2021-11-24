@@ -2,6 +2,13 @@
 
 [Intellij Folder Structure](https://www.jetbrains.com/help/idea/content-roots.html#configure-folders)
 
+## Add Maven Dependency in Intellij
+1. Open the pom.xml file
+2. Inside the <dependencies> tag **right click** > **Gengerate** > **Dependency**
+3. Search for desired dependency and click Add
+4. On the right side of the Intellij window within the side bar click on Maven
+5. Click on the refresh icon to Reload All Maven Projects
+
 
 # Python Virtual Environment
 
