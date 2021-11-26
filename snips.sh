@@ -34,7 +34,7 @@ curl localhost:8080/api/v1/person   # run spring java demon
 
 # curl post request to localhost API   
 # Inserting {"name": "James Foster"}
-curl --header "Content-Type: application/json" -d "{\"name\":\"James Foster\"}" localhost:8080/api/v1/person -v
+curl -h "Content-Type: application/json" -d '{"name":"James Foster"}' localhost:8080/api/v1/person -v
 
 # Environment Variables
 # User defined variables lowercase
