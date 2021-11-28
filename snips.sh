@@ -30,11 +30,11 @@ bg %8
 cat /etc/lab-release
 
 # curl get request to localhost API
-curl localhost:8080/api/v1/person   # run spring java demon
+curl localhost:8080/api/expense   # run spring java demon
 
 # curl post request to localhost API   
 # Inserting {"name": "James Foster"}
-curl -h "Content-Type: application/json" -d '{"name":"James Foster"}' localhost:8080/api/v1/person -v
+curl -d '{"item":"Ice Cream"}' -H 'Content-Type: application/json' localhost:8080/api/expense
 
 # Environment Variables
 # User defined variables lowercase
