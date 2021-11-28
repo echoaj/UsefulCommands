@@ -31,10 +31,11 @@ cat /etc/lab-release
 
 # curl get request to localhost API
 curl localhost:8080/api/expense   # run spring java demon
+Invoke-WebRequest -Uri http://localhost:8080/api/expense # PowerShell
 
 # curl post request to localhost API   
 # Inserting {"name": "James Foster"}
-curl -d '{"item":"Ice Cream"}' -H 'Content-Type: application/json' localhost:8080/api/expense
+curl -d '{"item":"Ice Cream"}' -H 'Content-Type: application/json' localhost:8080/api/expense # Can't do on PowerShell
 
 # Environment Variables
 # User defined variables lowercase
