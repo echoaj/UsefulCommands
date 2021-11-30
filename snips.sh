@@ -33,9 +33,15 @@ cat /etc/lab-release
 curl localhost:8080/api/expense   # run spring java demon
 Invoke-WebRequest -Uri http://localhost:8080/api/expense # PowerShell
 
+# curl DELETE
+curl -X "DELETE" http://localhost:8080/api/expense/619fead9a172d64502a6339d
+
 # curl post request to localhost API   
 # Inserting {"name": "James Foster"}
 curl -d '{"item":"Ice Cream"}' -H 'Content-Type: application/json' localhost:8080/api/expense # Can't do on PowerShell
+
+# curl put (update)
+curl -X PUT -H "Content-Type: application/json" -d '{"item":"Bowling"}' localhost:8080/api/expense/61a466de46204f49eef5b6b2
 
 # Environment Variables
 # User defined variables lowercase
