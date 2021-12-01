@@ -57,3 +57,7 @@ Enter Y and re-run the script.
 
 ## Kill Process
 > taskkill /PID 20396 /F
+
+## Open Website in Browser
+> Start "https://www.google.com"
+> Start-Process "https://www.google.com"
