@@ -30,7 +30,8 @@ bg %8
 cat /etc/lab-release
 
 # curl get request to localhost API
-curl localhost:8080/api/expense   # run spring java demon
+curl localhost:8080/api/expense   # run spring java demon.  Use -k to override SSL error and -I for header info
+curl -H "Accept: application/xml" -k https://localhost:44373/api/songs # Get in xml format
 Invoke-WebRequest -Uri http://localhost:8080/api/expense # PowerShell
 
 # curl DELETE
