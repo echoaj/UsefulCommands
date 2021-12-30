@@ -6,3 +6,6 @@
 ## Commands
 ### Update MacOS Software through command prompt
 `softwareupdate --all --install --force`
+
+## Show Hidden Files in Finder
+`Shift + Command + .`
