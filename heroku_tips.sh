@@ -48,3 +48,6 @@ echo "web: gunicorn app:app" > Procfile
 # create app on heroku
 # create github repo and upload files
 # connect to github repo through heroku
+
+# Access Website Logs
+heroku logs --app=finance-tracker-js --tail --num=10 --dyno=web
