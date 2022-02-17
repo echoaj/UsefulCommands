@@ -41,8 +41,8 @@ or
 https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 # Add requirements.txt, Procfile, install gunicorn
 pip3 install --upgrade pip --user
-pip3 freeze > requirements.txt
 pip install gunicorn
+pip3 freeze > requirements.txt
 touch Procile
 echo "web: gunicorn app:app" > Procfile
 # create app on heroku

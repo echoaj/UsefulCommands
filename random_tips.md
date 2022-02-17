@@ -96,3 +96,6 @@ Open Docker app.  Docker documentation says you can run `dockerd` but it didn't 
 * Start docker app on device.
 * `docker pull echoaj/<repo_name>:1.0.0`
 * `docker run --rm echoaj/<repo_name>:1.0.0`
+
+### Generate Icons of different sizes
+npx pwa-asset-generator img.png icons
