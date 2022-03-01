@@ -256,4 +256,3 @@ tail -F /var/log/user_sar_ccm/current
 tail -F /var/log/user_sar_lc/current
 tail -F /var/log/qsvc_gnss/current
 tail -F /var/log/qsvc_terr/current
-
