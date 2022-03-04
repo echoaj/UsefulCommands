@@ -250,7 +250,6 @@ scp curl1kEvery30s.sh ajoslin@192.168.0.100:/home/ajoslin/Desktop/
 # log onto quake test server
 ssh -p 8282 quaketester@70.183.89.225 #Pass: qu@k3
 
-
 ssh root@$AX3
 tail -F /var/log/user_sar_ccm/current
 tail -F /var/log/user_sar_lc/current
