@@ -72,6 +72,7 @@ Open Docker app.  Docker documentation says you can run `dockerd` but it didn't 
 
 ### Run container and it deletes itself after the process ends
 `docker run --rm -ti ubuntu sleep 5`
+`docker run --rm -ti echoaj/hello-bye:1.0.0`
 
 ### Run a detached container running in the background
 `docker run -d -ti ubuntu bash`
@@ -84,6 +85,11 @@ Open Docker app.  Docker documentation says you can run `dockerd` but it didn't 
 
 ### Build a docker image
 `docker build -t <repo_name> <path_to_place_file>`
+
+## Run existing container
+### Build a docker image
+`docker start <container-name>`
+`docker start HelloBye`
 
 ### Create, Push, Pull Docker Container
 * Navigate to the source file your code is in
