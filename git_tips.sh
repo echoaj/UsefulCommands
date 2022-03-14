@@ -101,6 +101,11 @@ git push                        # pushes new code to your repo
 # Pull Request resource
 https://zippyzsquirrel.github.io/squirrel-u/1_SquirrelU/4_GitHub/2_basicConcepts/6_ApproveMerge/
 
+# Resync .gitignore with remote git repo
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL
 # Like this: https://echoaj25:echovids2u@github.com/echoaj25/UnitConverter.git
