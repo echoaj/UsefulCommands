@@ -12,6 +12,12 @@
 
 # Python Virtual Environment
 
+## Start Python Virtual Environment
+(Windows Only)\
+`python -m venv path/to/app_name`
+`.\django\Scripts\Activate.ps1`\
+[Resource](https://docs.python.org/3/library/venv.html)
+
 ## Display System Path Variables.
 ```
 echo %PATH%
