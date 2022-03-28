@@ -7,5 +7,9 @@
 ### Update MacOS Software through command prompt
 `softwareupdate --all --install --force`
 
-## Show Hidden Files in Finder
+### Show Hidden Files in Finder
 `Shift + Command + .`
+
+### Find the PID for server running on port
+`lsof -i :3000`
+`kill -9 $(lsof -ti:3000)`
