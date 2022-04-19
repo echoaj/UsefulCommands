@@ -51,3 +51,8 @@ echo "web: gunicorn app:app" > Procfile
 
 # Access Website Logs
 heroku logs --app=finance-tracker-js --tail --num=10 --dyno=web
+
+# Heorku CLI change project path to folder subdirectory
+# Don't place the path but the name of the root folder
+heroku config:set PROJECT_PATH=<name_of_root>
+heroku config:set PROJECT_PATH=src      # Example FileBucket/src
