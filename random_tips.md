@@ -59,3 +59,21 @@ restart VM or execture the command below\
 
 ### Generate Icons of different sizes
 npx pwa-asset-generator img.png icons
+
+### Firebase Storage & Google Cloud CLI
+#### How to enable cors on firebase project
+1. Download Google Cloud CLI
+2. Log in using the CLI
+3. Create cors.json file in the project directory and type the code below.
+```
+[
+  {
+    "origin": ["*"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]
+```
+1. Navigate to the directory containing cors.json with the Google Cloud CLI
+2. In the CLI type: `gsutil cors set cors.json gs://<app_name>.appspot.com`
+ 
