@@ -106,6 +106,29 @@ git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
 
+# remove upstream
+git remote remove upstream
+
+# Delete remote branch
+git push <remote_name> --delete <branch_name>
+git push origin --delete prod # example
+
+# Delete local branch
+# First checkout to another branch
+git branch -d <branch_name>
+
+# Push local banch to other remote branch
+git push -u origin <branch_name>:<remote_branch_name>
+git push -u origin prod:S3Main  # example
+
+# View local branches is tracking remote branches
+git branch -vv 
+
+# Create local branch from remote branch and track it
+git checkout --track origin/<remote_banch_name>
+git checkout --track origin/FirebaseMain        # will create local branch called Firebasemain, switch, and track origin/FirebaseMain
+
+
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL
 # Like this: https://echoaj25:echovids2u@github.com/echoaj25/UnitConverter.git
