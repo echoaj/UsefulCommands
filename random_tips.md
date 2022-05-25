@@ -9,6 +9,9 @@
 4. On the right side of the Intellij window within the side bar click on Maven
 5. Click on the refresh icon to Reload All Maven Projects
 
+## Show main menu on startup
+settings -> Appearence & Behavior -> Project -> Reopen projects on startup (check off)
+
 
 # Python Virtual Environment
 
