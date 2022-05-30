@@ -12,11 +12,16 @@
 ## Show main menu on startup
 settings -> Appearence & Behavior -> Project -> Reopen projects on startup (check off)
 
-# Intellij allow spring boot developer tools to run server automatically
+## Intellij allow spring boot developer tools to run server automatically
 Download spring bood developer tools
 settings -> Build, Execute, Deployment -> Compiler -> Build project automatically (check on)
 settings -> Advanced Settings -> Compiler -> Allow auto-make to start ... (check on)
 
+## Search through all files
+`ctrl + shift + f`
+
+## Find and Replace
+`ctrl + r`
 
 # Python Virtual Environment
 
