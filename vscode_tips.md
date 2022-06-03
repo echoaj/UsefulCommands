@@ -132,3 +132,6 @@ Turn off Workbench -> `Editor:Enable Preview`
 
 ### Disable open editors pane from explorer sidebar
 Set to 0 Explorer > `Open Editors:Visible`
+
+### Disable / Enable Bracket Pair Colorization
+Turn off/on `Editor:Bracket Pair Colorization`
