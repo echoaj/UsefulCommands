@@ -56,3 +56,20 @@ heroku logs --app=finance-tracker-js --tail --num=10 --dyno=web
 # Don't place the path but the name of the root folder
 heroku config:set PROJECT_PATH=<name_of_root>
 heroku config:set PROJECT_PATH=src      # Example FileBucket/src
+
+
+# Deploy Java Spring Boot App (GitHub)
+1. Connect to GitHub
+2. In the pom.xml file under <build> -> <plugins> add the following:
+    """
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.0</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    """
+# That's it!  Don't need to add Java build pack. Heroku detects java from pom.xml file.

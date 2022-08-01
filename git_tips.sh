@@ -128,6 +128,8 @@ git branch -vv
 git checkout --track origin/<remote_banch_name>
 git checkout --track origin/FirebaseMain        # will create local branch called Firebasemain, switch, and track origin/FirebaseMain
 
+# Turn off LF / CRLF line Endings Warning for Windows
+git config core.autocrlf true
 
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL
