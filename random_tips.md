@@ -89,3 +89,6 @@ npx pwa-asset-generator img.png icons
 ```
 1. Navigate to the directory containing cors.json with the Google Cloud CLI
 2. In the CLI type: `gsutil cors set cors.json gs://<app_name>.appspot.com`
+
+## Generate gitignore file CLI
+gen gitignore

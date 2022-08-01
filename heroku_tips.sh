@@ -73,3 +73,12 @@ heroku config:set PROJECT_PATH=src      # Example FileBucket/src
         </plugin>
     """
 # That's it!  Don't need to add Java build pack. Heroku detects java from pom.xml file.
+
+
+# Deploy Node.js App (Heroku CLI)
+1. heorku login
+2. git init
+3. heroku git:remote -a software-quiz
+4. git add .
+5. git commit -am "initial commit"
+6. git push heroku master

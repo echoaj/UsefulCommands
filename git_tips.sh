@@ -130,6 +130,7 @@ git checkout --track origin/FirebaseMain        # will create local branch calle
 
 # Turn off LF / CRLF line Endings Warning for Windows
 git config core.autocrlf true
+git config --global core.safecrlf false
 
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL
