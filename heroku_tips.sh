@@ -76,9 +76,10 @@ heroku config:set PROJECT_PATH=src      # Example FileBucket/src
 
 
 # Deploy Node.js App (Heroku CLI)
-1. heorku login
-2. git init
-3. heroku git:remote -a software-quiz
-4. git add .
-5. git commit -am "initial commit"
-6. git push heroku master
+1. PORT = process.env.PORT || 3000
+2. heorku login
+3. git init
+4. heroku git:remote -a software-quiz
+5. git add .
+6. git commit -am "initial commit"
+7. git push heroku master
