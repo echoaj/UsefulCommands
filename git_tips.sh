@@ -1,12 +1,12 @@
 #-------------------------------------------- Git Tips -------------------------------------------- 
 
 # Remeber User
-git config —global user.name “echoaj”
-git config —global user.email “aljoslin13@yahoo.com”
+git config --global user.name “echoaj”
+git config --global user.email “aljoslin13@yahoo.com”
 # Save User and Password --next time you log in it should save
 git config --global credential.helper store
 # View git config settings
-git config —list
+git config --list
 # list all the remote origins in local repo
 git remote -v 
 # remove file to stop tracking repository from init
@@ -128,6 +128,9 @@ git branch -vv
 git checkout --track origin/<remote_banch_name>
 git checkout --track origin/FirebaseMain        # will create local branch called Firebasemain, switch, and track origin/FirebaseMain
 
+# Turn off LF / CRLF line Endings Warning for Windows
+git config core.autocrlf true
+git config --global core.safecrlf false
 
 # PRIVATE
 # if you clone a private repo, you must enter your username and password into the URL

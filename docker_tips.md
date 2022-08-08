@@ -48,3 +48,25 @@ Open Docker app.  Docker documentation says you can run `dockerd` but it didn't 
 * Start docker app on device.
 * `docker pull echoaj/<repo_name>:1.0.0`
 * `docker run --rm echoaj/<repo_name>:1.0.0`
+
+### Port Binding
+Let's say you have two images such as redis & redis:4.0 on your machine but both run on the same port.
+If you were to run them both you would get an error because they are bound to the same port number on your host machine.
+So you need to tell docker to use a different port number for each image for the host.
+```
+       +-----+                  +-----+
+ host  |3000 |                  |3001 | <- Good, now it will work
++------+-----+------------------+-----+-------+
+|                 container                   |
+|      +-----+                  +-----+       |
+|      |3000 |                  |3000 |       |
+|      +-----+                  +-----+       |
+|  +-------------+          +--------------+  |
+|  |             |          |              |  |
+|  |    redis    |          |  redis:4.0   |  |
+|  |             |          |              |  |
+|  +-------------+          +--------------+  |
++---------------------------------------------+
+```
+`docker run -p 3000:3000 redis`
+`docker run -p 3001:3000 redis:4.0`

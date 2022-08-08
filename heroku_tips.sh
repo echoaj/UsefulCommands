@@ -65,3 +65,29 @@ In index.php, add the following line: <?php include_once("home.html"); ?>
 In composer.json, add the following line: {}
 Run git push heroku master
 Add php build pack to the heroku settings for the app
+
+# Deploy Java Spring Boot App (GitHub)
+1. Connect to GitHub
+2. In the pom.xml file under <build> -> <plugins> add the following:
+    """
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.0</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    """
+# That's it!  Don't need to add Java build pack. Heroku detects java from pom.xml file.
+
+
+# Deploy Node.js App (Heroku CLI)
+1. PORT = process.env.PORT || 3000
+2. heorku login
+3. git init
+4. heroku git:remote -a software-quiz
+5. git add .
+6. git commit -am "initial commit"
+7. git push heroku master

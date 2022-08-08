@@ -12,11 +12,16 @@
 ## Show main menu on startup
 settings -> Appearence & Behavior -> Project -> Reopen projects on startup (check off)
 
-# Intellij allow spring boot developer tools to run server automatically
+## Intellij allow spring boot developer tools to run server automatically
 Download spring bood developer tools
 settings -> Build, Execute, Deployment -> Compiler -> Build project automatically (check on)
 settings -> Advanced Settings -> Compiler -> Allow auto-make to start ... (check on)
 
+## Search through all files
+`ctrl + shift + f`
+
+## Find and Replace
+`ctrl + r`
 
 # Python Virtual Environment
 
@@ -84,4 +89,6 @@ npx pwa-asset-generator img.png icons
 ```
 1. Navigate to the directory containing cors.json with the Google Cloud CLI
 2. In the CLI type: `gsutil cors set cors.json gs://<app_name>.appspot.com`
- 
+
+## Generate gitignore file CLI
+gen gitignore
