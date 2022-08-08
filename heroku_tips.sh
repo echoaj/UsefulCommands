@@ -56,3 +56,12 @@ heroku logs --app=finance-tracker-js --tail --num=10 --dyno=web
 # Don't place the path but the name of the root folder
 heroku config:set PROJECT_PATH=<name_of_root>
 heroku config:set PROJECT_PATH=src      # Example FileBucket/src
+
+# deploy static website
+Add a file called composer.json to the root directory by running touch composer.json
+Add a file called index.php to the root directory by running touch index.php
+Rename the homepage (e.g. index.html) to home.html
+In index.php, add the following line: <?php include_once("home.html"); ?>
+In composer.json, add the following line: {}
+Run git push heroku master
+Add php build pack to the heroku settings for the app
