@@ -21,3 +21,9 @@
 ## Get tar file from web and un zip it
 1. `sudo wget -c https://download.file.tar.gz`
 2. `sudo tar -xvf file.tar.gz`
+
+## Open Files GUI from terminal
+`nautilus .`
+
+## Open Terminal from command line
+`gnome-terminal`
