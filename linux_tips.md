@@ -17,3 +17,7 @@
 7. Run your java program
 8. More info: `https://tomgregory.com/java-home-vs-path-environment-variables/`
 9. I still couldn't compile my Java Scheduler Project
+
+## Get tar file from web and un zip it
+1. `sudo wget -c https://download.file.tar.gz`
+2. `sudo tar -xvf file.tar.gz`
