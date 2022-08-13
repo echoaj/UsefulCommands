@@ -78,9 +78,6 @@ sudo microcom -p /dev/ttyUSB0 -s 115200
 #Access qconnect through ssh
 ssh root@192.168.0.133
 
-#Personal Access token git lcoal
-Ns4kez_R6Gjie7Lp2xv3
-
 #Command to copy over map files to qconnect throuhgh ssh
 scp {MAP.bin,MAP.md5,certs.zip} root@192.168.0.133:/var/user/SAR/
 
