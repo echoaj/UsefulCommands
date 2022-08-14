@@ -1,4 +1,29 @@
 
+
+# Docker
+## Notes
+* When you run a docker image, if it doesn't find it in your library it will downloaded it from a library  online for you.
+* Don't let your containers fetch dependencies at boot time.  Like to container running npm install.  Otherwise if someone removes a library from node repo your containers will stop.  Instead, include the dependencies inside the container itself.
+* Don't leave important thing in an unamed stopped container.  Otherwise you run the risk of accidentally deleting a seemingly unimportant container and then all your important stuff is gone.
+* Docker files are programs used to describe how to create an image and you build this image by using the `docker build` command.  Docker files are not shell scripts.  Operations need to on the same line if you want both of them to run.
+* Include installer in your project.
+* [Resource](https://www.howtoforge.com/tutorial/how-to-create-docker-images-with-dockerfile/)
+
+## Linux Installation
+`sudo apt-get update`\
+`sudo apt-get install ca-certificates curl gnupg lsb-release`\
+` curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg`\
+`echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`\
+`sudo apt-get update`\
+`sudo apt-get install docker-ce docker-ce-cli containerd.io`\
+`sudo docker run hello-world`\
+Make it so you don't need to add sudo in front\
+`sudo groupadd docker`\
+`sudo usermod -aG docker $USER`\
+restart VM or execture the command below\
+`newgrp docker`\
+`docker run hello-world` should work now.
+
 ## Commands
 ### Start Docker Daemon
 Open Docker app.  Docker documentation says you can run `dockerd` but it didn't work for me.
