@@ -31,6 +31,10 @@ The `SchedulePresenter` is responsible for presenting schedules.
 
 When you divide your code like this you may end up with files that are quite concise – less than 50 lines, even. This is OK! An application composed of small classes that work well together is likely to be much easier to work with than a monolithic application composed of several large classes that each do many different things.
 
+## Kill the Ego
+Stop saying “I know that”. Everybody knows that you are a junior. \
+Know that every junior is a company’s investment for the future. \
+
 # Recources
 
 https://www.codementor.io/learn-programming/15-ways-to-improve-as-a-junior-developer
