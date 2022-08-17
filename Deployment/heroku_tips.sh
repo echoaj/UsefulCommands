@@ -91,3 +91,22 @@ Add php build pack to the heroku settings for the app
 5. git add .
 6. git commit -am "initial commit"
 7. git push heroku master
+
+
+# Deploy Django App (Heroku Github)
+1. On Heroku create a new project
+2. Make sure there is a .gitignore in the project
+3. In settings set DEBUG=False
+4. In settings set ALLOWED_HOSTS=['*'] # or ALLOWED_HOSTS = ['localhost', '127.0.0.1', '<app_name>.herokuapp.com']
+4. pip install gunicorn
+5. In src root directory, create a Procfile and add to the Procfile: "web: gunicorn <folder_name>.wsgi --log-file -"
+6. In src root directory, create runtime.txt inside src root directory and add to the runtime.txt: "python-3.9.12"
+7. In src root directory, "pip freeze > requirements.txt"
+2. On Heroku in settings set the build pack to https://github.com/timanovsky/subdir-heroku-buildpack
+3. On Heroku in settings create an environment variable called PROJECT_PATH and set it to root directory: e.g. "PROJECT_PATH=src"
+2. On Heroku in settings set the build pack to python
+4. On Heroku in settings create an environment variable called DISABLE_COLLECTSTATIC and set it to 0 or 1 depending if you have static files
+STATIC_ROOT = BASE_DIR / "staticfiles"
+Add 'whitenoise.middleware.WhiteNoiseMiddleware' to middle where
+pip install django-heroku
+django_heroku.settings(locals())
