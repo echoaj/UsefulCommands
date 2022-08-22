@@ -27,3 +27,6 @@
 
 ## Open Terminal from command line
 `gnome-terminal`
+
+## View bytes of a file in human readable format
+`hexdump -C <file_name>`

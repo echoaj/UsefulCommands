@@ -13,3 +13,6 @@
 ### Find the PID for server running on port
 `lsof -i :3000`
 `kill -9 $(lsof -ti:3000)`
+
+## View bytes of a file in human readable format
+`hexdump -C <file_name>`
