@@ -150,6 +150,7 @@ git config --global user.name "Alex Joslin"
 git config --global user.email "aljoslinjunk@yahoo.com"
 git config --global user.password "******"
 git config credential.username "echoaj25"
+# Note: In reality the only thing you have to change it user.email for it to work
 
 
 #-------------------------------------------- Git Tips --------------------------------------------
