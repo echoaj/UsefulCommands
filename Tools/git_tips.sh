@@ -137,3 +137,12 @@ git config --global core.safecrlf false
 # Like this: https://echoaj25:echovids2u@github.com/echoaj25/UnitConverter.git
 # Too add a person to private repo you must to that in the settings in GitHub.
 # Then everything is the same from then on.
+
+# A person can't clone a private repo unless they are added to it.
+# Or they need change their credentials on the computer
+
+# Let's say I want to switch users from echoaj to eachoaj25
+git config --global user.name "Alex Joslin"
+git config --global user.email "aljoslinjunk@yahoo.com"
+git config --global user.password "******"
+git config credential.username "echoaj25"
