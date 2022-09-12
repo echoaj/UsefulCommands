@@ -33,21 +33,33 @@ git push heroku master
 
 heroku logs --tail
 
-# deploy flask on heroku trough github
-touch .gitignore
-# Place the followng below in .gitignore file
+# Deploy flask on heroku (GitHub)
+1. touch .gitignore
+2. Place the followng below in .gitignore file
 https://flask.palletsprojects.com/en/2.0.x/tutorial/layout/?highlight=gitignore
 or
 https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
-# Add requirements.txt, Procfile, install gunicorn
-pip3 install --upgrade pip --user
-pip install gunicorn
-pip3 freeze > requirements.txt
-touch Procile
-echo "web: gunicorn app:app" > Procfile
-# create app on heroku
-# create github repo and upload files
-# connect to github repo through heroku
+3. pip install gunicorn
+4. pip3 freeze > requirements.txt
+5. touch Procile
+6. echo "web: gunicorn app:app" > Procfile
+7. create app on heroku
+8. create github repo and upload files
+9. connect to github repo through heroku
+
+# Deploy flask on heroku (CLI)
+1. Create a new app on heroku
+2. On Heroku in settings set the build pack to python
+3. Add .gitignore
+4. pip install gunicorn
+5. Add Procfile. Type "web: gunicorn app:app" into the Procfile
+6. pip freeze > requirements.txt
+2. heorku login
+3. git init
+4. heroku git:remote -a software-quiz-py
+5. git add .
+6. git commit -am "initial commit"
+7. git push heroku master
 
 # Access Website Logs
 heroku logs --app=finance-tracker-js --tail --num=10 --dyno=web
@@ -98,14 +110,14 @@ Add php build pack to the heroku settings for the app
 2. Make sure there is a .gitignore in the project
 3. In settings set DEBUG=False
 4. In settings set ALLOWED_HOSTS=['*'] # or ALLOWED_HOSTS = ['localhost', '127.0.0.1', '<app_name>.herokuapp.com']
-4. pip install gunicorn
-5. In src root directory, create a Procfile and add to the Procfile: "web: gunicorn <folder_name>.wsgi --log-file -"
-6. In src root directory, create runtime.txt inside src root directory and add to the runtime.txt: "python-3.9.12"
-7. In src root directory, "pip freeze > requirements.txt"
-2. On Heroku in settings set the build pack to https://github.com/timanovsky/subdir-heroku-buildpack
-3. On Heroku in settings create an environment variable called PROJECT_PATH and set it to root directory: e.g. "PROJECT_PATH=src"
-2. On Heroku in settings set the build pack to python
-4. On Heroku in settings create an environment variable called DISABLE_COLLECTSTATIC and set it to 0 or 1 depending if you have static files
+5. pip install gunicorn
+6. In src root directory, create a Procfile and add to the Procfile: "web: gunicorn <folder_name>.wsgi --log-file -"
+7. In src root directory, create runtime.txt inside src root directory and add to the runtime.txt: "python-3.9.12"
+8. In src root directory, "pip freeze > requirements.txt"
+9. On Heroku in settings set the build pack to https://github.com/timanovsky/subdir-heroku-buildpack
+10. On Heroku in settings create an environment variable called PROJECT_PATH and set it to root directory: e.g. "PROJECT_PATH=src"
+11. On Heroku in settings set the build pack to python
+12. On Heroku in settings create an environment variable called DISABLE_COLLECTSTATIC and set it to 0 or 1 depending if you have static files
 STATIC_ROOT = BASE_DIR / "staticfiles"
 Add 'whitenoise.middleware.WhiteNoiseMiddleware' to middle where
 pip install django-heroku
