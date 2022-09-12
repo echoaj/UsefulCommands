@@ -152,7 +152,6 @@ git config --global user.password "******"
 git config credential.username "echoaj25"
 
 
-
 #-------------------------------------------- Git Tips --------------------------------------------
 # Great Commit
 Golden rule: Only combine changes from the same topic in a single commit.
