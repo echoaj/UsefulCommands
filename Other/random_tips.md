@@ -46,7 +46,7 @@ gen gitignore
 
 ## Change PC boot order
 1. Open the BIOS (as soon as the PC starts press f2 or f12)
-2. Go to the Bios Setup
+2. Go to the BIOS Setup
 3. Go to General -> Boot Sequence
 4. Click Add Boot Option
 5. Select EFI for the file name
