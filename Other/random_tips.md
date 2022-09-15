@@ -53,6 +53,7 @@ gen gitignore
 6. Select shimx64.efi for the file
 7. Enter boot option name (e.g. ubuntu)
 8. Then change the boot sequence so that the new boot option is on top
+
 [Source](https://itsfoss.com/no-grub-windows-linux/)
 
 ## Make USB WIFI Adapter work on Linux (BT + AC600 Driver Free)
@@ -66,4 +67,5 @@ cd rtl8821CU/
 make
 sudo make install
 ```
-Then repull the USB Adapter and it should work.
+Then repull the USB Adapter and it should work.\
+[Source](https://github.com/brektrou/rtl8821CU)
