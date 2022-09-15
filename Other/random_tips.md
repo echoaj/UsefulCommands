@@ -43,3 +43,27 @@ npx pwa-asset-generator img.png icons
 
 ## Generate gitignore file CLI
 gen gitignore
+
+## Change PC boot order
+1. Open the BIOS (as soon as the PC starts press f2 or f12)
+2. Go to the boot settings
+3. Go to boot sequence
+4. Click Add Boot Option
+5. Select EFI for the file name
+6. Select shimx64.efi for the file
+7. Enter boot option name (e.g. ubuntu)
+8. Then change the boot sequence so that the new boot option is on top
+[Source](https://itsfoss.com/no-grub-windows-linux/)
+
+## Make USB WIFI Adapter work on Linux (BT + AC600 Driver Free)
+Enter the following commands in the terminal:
+```
+mkdir -p ~/build
+cd build/
+sudo apt-get install git
+git clone https://github.com/brektrou/rtl8821CU.git
+cd rtl8821CU/
+make
+sudo make install
+```
+Then repull the USB Adapter and it should work.
