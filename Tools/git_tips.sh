@@ -1,8 +1,8 @@
 #-------------------------------------------- Git Commands -------------------------------------------- 
 
 # Remeber User
-git config --global user.name “echoaj”
-git config --global user.email “aljoslin13@yahoo.com”
+git config --global user.name echoaj
+git config --global user.email aljoslin13@yahoo.com
 # Save User and Password --next time you log in it should save
 git config --global credential.helper store
 # View git config settings

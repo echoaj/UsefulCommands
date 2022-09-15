@@ -69,3 +69,18 @@ sudo make install
 ```
 Then repull the USB Adapter and it should work.\
 [Source](https://github.com/brektrou/rtl8821CU)
+
+
+## Add Usefull Bash Aliases
+```
+alias desk="cd ~/Desktop"
+alias docs="cd ~/Documents"
+alias bashedit="code ~/.bashrc"
+alias snips="code ~/Desktop/UsefulCommands"
+
+function gall() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+```
