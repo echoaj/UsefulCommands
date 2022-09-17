@@ -150,9 +150,16 @@ or\
 
 ## Check with shell you are using
 `echo $SHELL`
+`grep echoaj /etc/passwd`  <!-- Can also modify /etc/passwd -->
+
+## List all valid shells
+`cat /etc/shells`
 
 ## Display the path name of a command
 `which <command>`
+
+## Display source/binary file of a command
+`whereis <command>`
 
 ## Install Oh My Zsh
 1. Install zsh: `sudo apt install zsh`
