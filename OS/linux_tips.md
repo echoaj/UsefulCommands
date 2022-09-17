@@ -147,6 +147,7 @@ read for others
 or\
 `chsh -s $(which bash)`\
 `chsh -s $(which zsh)`
+Then you must restart linux.
 
 ## Check with shell you are using
 `echo $SHELL`
