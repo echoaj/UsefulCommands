@@ -104,3 +104,96 @@ remove execute permission for all\
 set all permissions for user\
 read, write for group\
 read for others
+
+### Change Ownership
+`chown <user_name>:<group_name> <file_name>`
+
+## Find
+`find <directory> -name <file_name>`
+* `-name` is case sensitive
+
+## Display free disk space
+`df -h`
+
+## Switch Users
+### Switch to root user
+`sudo su -`
+### Switch to echoaj
+`sudo su echoaj`
+### Change the privileges to the root user
+`sudo su`
+
+## Fun Commands
+### Display a random quote
+`fortune`
+### Display the matrix
+`cmatrix`
+### Display a random ASCII art
+`cowsay`
+### Display a train
+`sl`
+### Ascii fire
+`aafire`
+
+## Display All Running Processes
+`ps -A`
+
+## Kill a Process
+`sudo kill -9 <process_id>`
+
+## Switch between shells
+`chsh -s /bin/bash`    
+`chsh -s /bin/zsh`\
+or\
+`chsh -s $(which bash)`\
+`chsh -s $(which zsh)`
+
+## Check with shell you are using
+`echo $SHELL`
+
+## Display the path name of a command
+`which <command>`
+
+## Install Oh My Zsh
+1. Install zsh: `sudo apt install zsh`
+2. Install oh-my-zsh: `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
+3. Create custom theme: `gedit ~/.oh-my-zsh/themes/echoaj.zsh-theme`
+   > **Add the following code to the file and save:**
+   ```
+   PROMPT="${FG[220]}%~%{$reset_color%}\$(git_prompt_info)\$(virtualenv_prompt_info)${FG[133]}\$(git_prompt_status) ${FG[077]}▶%{$reset_color%} "
+
+   ZSH_THEME_GIT_PROMPT_PREFIX=" ${FG[012]}("
+   ZSH_THEME_GIT_PROMPT_SUFFIX="${FG[012]})%{$reset_color%}"
+   ZSH_THEME_GIT_PROMPT_DIRTY=" ${FG[133]}✘"
+   ZSH_THEME_GIT_PROMPT_CLEAN=" ${FG[118]}✔"
+
+   ZSH_THEME_GIT_PROMPT_ADDED="${FG[082]}✚%{$reset_color%}"
+   ZSH_THEME_GIT_PROMPT_MODIFIED="${FG[166]}✹%{$reset_color%}"
+   ZSH_THEME_GIT_PROMPT_DELETED="${FG[160]}✖%{$reset_color%}"
+   ZSH_THEME_GIT_PROMPT_RENAMED="${FG[220]}➜%{$reset_color%}"
+   ZSH_THEME_GIT_PROMPT_UNMERGED="${FG[082]}═%{$reset_color%}"
+   ZSH_THEME_GIT_PROMPT_UNTRACKED="${FG[190]}✭%{$reset_color%}"
+
+   ZSH_THEME_VIRTUALENV_PREFIX=" ["
+   ZSH_THEME_VIRTUALENV_SUFFIX="]"
+   ```
+4. Open .zshrc file: `gedit ~/.zshrc`
+   > **Set the ZSH theme to echoaj and save:**
+   ```
+   ZSH_THEME="echoaj"
+   ```
+5. Reset theme: `source ~/.zshrc`
+
+## Add Usefull Bash Aliases
+```
+alias desk="cd ~/Desktop"
+alias docs="cd ~/Documents"
+alias bashedit="code ~/.bashrc"
+alias snips="code ~/Desktop/UsefulCommands"
+
+function gall() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+```
