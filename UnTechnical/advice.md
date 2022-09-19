@@ -18,7 +18,7 @@ If you’re missing an understanding of the business, you may end up building th
 ---
 
 ## The "And" Test (Separate your concerns)
-Use the "and" test to determine if you need to seperate your code. \
+Use the "and" test to determine if you need to separate your code. \
 **Example:**
 
 The Conference class is responsible for scheduling AND displaying conference timetables. (Fails the AND test).

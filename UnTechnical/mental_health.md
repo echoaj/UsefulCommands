@@ -15,7 +15,7 @@
 * Burnout is a real thing.  It's a state of physical, emotional, and mental exhaustion caused by excessive and prolonged stress.
 ## Tips
 * Get enough sleep. Diet and exercise. Take breaks. Breath
-* Make time to realx and unwind.
+* Make time to relax and unwind.
 * Connect with friends and family.
 * Don't stop doing things you enjoy.
 
@@ -23,10 +23,10 @@
 ## Notes
 * As digital consumption goes up, the level of empathy goes down.
 * We are more impatient.
-* We are constantly interupted.
-* Just because we have more communication chanels doesn't mean our communication quality is better.
-* We need to enchance our focus on analgog communication skills rather than digital communication skills.
-* Within 3 seconds of meeting someone, we have already made a judgement about them.
+* We are constantly interrupted.
+* Just because we have more communication channels doesn't mean our communication quality is better.
+* We need to enhance our focus on analog communication skills rather than digital communication skills.
+* Within 3 seconds of meeting someone, we have already made a judgment about them.
 ## Tips
 * Listen to understand, not to respond.
 * Body language is important.  Don't cross your arms.  Don't look away.
@@ -35,9 +35,9 @@
 # Imposter Syndrome
 ## Notes
 * Imposter syndrome is a feeling of phoniness and unworthiness when it comes to their achievements.
-* Even though we are highly motivated, we don't really beleive in the credit that comes our way.
+* Even though we are highly motivated, we don't really believe in the credit that comes our way.
 * 70% of people experience imposter syndrome. They experience Anxiety, Perfectionism, fear of failure, and Self-Doubt.
-* Imposter syndrome is like a really having a crappy best friend in your head. I call mine "Dark Alex".
+* Imposter syndrome is like really having a crappy best friend in your head. I call mine "Dark Alex".
 * Common sayings: 
   1. "You don't deserve to be here, these people are really smart"
   2. "You might have done it this time, but I don't know how you will do it next time"
@@ -45,4 +45,4 @@
 ## Tips
 * Applaud effort.
 * Talk about it with others
-* Document problems that go wrong and analyise if they stem from you.
+* Document problems that go wrong and analyze if they stem from you.

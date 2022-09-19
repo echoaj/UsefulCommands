@@ -20,7 +20,7 @@
 Make it so you don't need to add sudo in front\
 `sudo groupadd docker`\
 `sudo usermod -aG docker $USER`\
-restart VM or execture the command below\
+restart VM or execute the command below\
 `newgrp docker`\
 `docker run hello-world` should work now.
 
@@ -34,10 +34,10 @@ Open Docker app.  Docker documentation says you can run `dockerd` but it didn't 
 ### Run an image
 `docker run -ti ubuntu:latest bash`
 
-### Commiting Images (saving images into new images) 
-##### Commiting images and then tagging them is such a common pattern that you can just do it all in one line
+### Committing Images (saving images into new images) 
+##### Committing images and then tagging them is such a common pattern that you can just do it all in one line
 `docker commit <name_of_container> <name_of_new_image>`
-##### To do everything manualy execute the commands below
+##### To do everything manually execute the commands below
 `docker ps`\
 `docker commit <ps_ID>`\
 `docker tag <image_ID> <name_of_new_image>`

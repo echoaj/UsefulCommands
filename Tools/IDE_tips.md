@@ -10,7 +10,7 @@
 5. Click on the refresh icon to Reload All Maven Projects
 
 ## Show main menu on startup
-settings -> Appearence & Behavior -> Project -> Reopen projects on startup (check off)
+settings -> Appearance & Behavior -> Project -> Reopen projects on startup (check off)
 
 ## Intellij allow spring boot developer tools to run server automatically
 Download spring bood developer tools

@@ -68,7 +68,7 @@ Mac: `command + ,`
 ## C
 1. Create C file
 2. Download gcc compiler -`sudo apt install gcc`.  
-   * gcc will apear in `usr/bin/gcc` & `bin/gcc`.
+   * gcc will appear in `usr/bin/gcc` & `bin/gcc`.
    * It installs meta packages, g++/GNU compiler, gcc, dpkg-dev, G++
    * You can also execute `sudo apt install build-essential`. 
 * *Note:
@@ -124,10 +124,10 @@ Turn on `Code-runner:Clear Previous Output`
 ### Don't show output execution messages
 Turn off `Code-runner:Show Execution Messages`
 
-### Refomat Code to automatically insert semicolons after statements when pressing shift + alt + f
+### Reformat Code to automatically insert semicolons after statements when pressing shift + alt + f
 Select "insert" in JavaScript->`Format:Semicolons`  ( can also do the same for TypeScript )
 
-### Disable Enable Prview so tabs remain open reguardless of if you try to open another file
+### Disable Enable Preview so tabs remain open regardless of if you try to open another file
 Turn off Workbench -> `Editor:Enable Preview`
 
 ### Disable open editors pane from explorer sidebar
