@@ -59,6 +59,7 @@ git push origin —delete branch_name 	            # delete branch on our remote
 
 # Sync Upstream (when you want to get updated code from repo you forked from)
 git remote -v
+git remote -vv                                      # view upstream connections
 git remote rm upstream 			                    # if needed
 git remote add upstream https:url…		
 git fetch upstream				                    # update origin
@@ -151,6 +152,7 @@ git config --global user.email "aljoslinjunk@yahoo.com"
 git config --global user.password "******"
 git config credential.username "echoaj25"
 # Note: In reality the only thing you have to change it user.email for it to work
+
 
 
 #-------------------------------------------- Git Tips --------------------------------------------

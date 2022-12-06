@@ -45,6 +45,9 @@ curl -d '{"item":"Ice Cream"}' -H 'Content-Type: application/json' localhost:808
 # curl put (update)
 curl -X PUT -H "Content-Type: application/json" -d '{"item":"Bowling"}' localhost:8080/api/expense/61a466de46204f49eef5b6b2
 
+# curl download
+curl -v -O https://raw.github.northgrum.com/DevStarOpsEcosystem/NexusRepository/master/cert_cache/NorthropGrummanCorporateRootCA-G2.pem -L
+
 # Environment Variables
 # User defined variables lowercase
 # Global variables uppercase
