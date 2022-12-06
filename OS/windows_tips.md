@@ -30,7 +30,10 @@
 ### Display Netadapter
 `get-netadapter`
 
-## Create Alias
+## Check to see if you have a Profile configure
+`test-path $profile`
+
+## Create Alias (Profile)
 `New-Item -Type file -Path $Profile -Force\`
 `code $Profile`
 
