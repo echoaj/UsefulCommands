@@ -51,3 +51,6 @@
 6. Select the products you want to be downloading with the intention of patching and updating.
 7. If you get End Snap-in error or a connection reset server node error, follow this guide to fix: https://bhanuwriter.com/wsus-connection-error-reset-server-node/
 8. If all is well, you should see the number of updates waiting to be approved.
+
+# Make it so VM can ping computers on the same network
+1. Watch this video: https://www.youtube.com/watch?v=H9qLsHprzVQ
