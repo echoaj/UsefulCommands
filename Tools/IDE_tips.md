@@ -22,3 +22,9 @@ settings -> Advanced Settings -> Compiler -> Allow auto-make to start ... (check
 
 ## Find and Replace
 `ctrl + r`
+
+## Reformat File
+`ctrl + alt + l`
+
+## Disable Parameter Hints
+settings -> Editor -> Inlay Hints
