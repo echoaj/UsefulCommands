@@ -26,7 +26,7 @@
 3. Within the Windows Server configure search for "advanced system settings" within the start menu
 4. Give you computer a name.
 5. Within the Windows Server configure a static IP address. Then restart the computer.
-6. Go into server manager and got to "add roles and features" and add the role "Active Directory Domain Services" and "DNS Server"
+6. Go into server manager and go to "add roles and features" and add the role "Active Directory Domain Services" and "DNS Server"
 7. Check on "restart the destination server automatically if required" then install
 8. If no restart is required, then click on "Promote this server to a domain controller". You can also go to the search bar and type "dcpromo" to get to the same place.
 9. Click on "add a new forest" and give it a name (eg: home.com). Then click next.
