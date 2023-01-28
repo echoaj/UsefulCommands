@@ -57,3 +57,12 @@ https://bhanuwriter.com/wsus-connection-error-reset-server-node/
 
 # Make it so VM can ping computers on the same network
 1. Watch this video: https://www.youtube.com/watch?v=H9qLsHprzVQ
+
+# Enable Local Group Policy Editor on Windows 10 Home
+1. Open CMD As Administrator
+2. Enter the following commands:
+```
+FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F")
+FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F")
+```
+3. Run gpedit.msc to open Local Group Policy Editor
