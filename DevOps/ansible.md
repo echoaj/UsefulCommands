@@ -17,6 +17,8 @@
 
 ### Create directory on all hosts
 `ansible all -m file -a 'path=/tmp/test.txt state=touch'`
+### Remove file from host
+`ansible ubuntu -m file -a 'path=/etc/update-motd.d/60-ansible-motd state=absent' -o`
 ### Display timestamp of directory on all hosts
 `ansible all -m command -a 'date -r /tmp/test'`
 `ls -altrh /tmp/test`
