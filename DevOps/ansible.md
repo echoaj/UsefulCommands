@@ -35,3 +35,6 @@ Green: Success without changes
 `ansible all -m copy -a 'src=/tmp/x dest=/tmp/x'`
 ### Send a command to all hosts
 `ansible all -a 'pwd' -o`
+
+## Playbooks
+[Keywords](https://docs.ansible.com/ansible/latest/reference_appendices/playbooks_keywords.html)
