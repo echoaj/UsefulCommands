@@ -55,6 +55,9 @@
 ## Fix Error: Connection Error: Reset Server Node
 https://bhanuwriter.com/wsus-connection-error-reset-server-node/
 
+## Fix Error: When you run WSUS server for the first time and won't initiate
+https://www.ajtek.ca/wsus/wsus-post-deployment-configuration-failed-windows-server-2022/
+
 # Make it so VM can ping computers on the same network
 1. Watch this video: https://www.youtube.com/watch?v=H9qLsHprzVQ
 
@@ -66,3 +69,4 @@ FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-Client
 FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F")
 ```
 3. Run gpedit.msc to open Local Group Policy Editor
+
