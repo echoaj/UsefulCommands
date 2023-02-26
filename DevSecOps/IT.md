@@ -5,9 +5,12 @@
 2. Download ESXI ISO
 3. Use Rufus to create a bootable USB with ESXI ISO on it
 4. Connect USB to computer and boot from it
-5. Follow the prompts to install ESXI
-6. Setup a static IP address for the ESXI host
-7. Then you can connect to the ESXI host by typing the static IP address in a web browser
+5. Plug in flash drive into computer/server.
+6. Turn on computer, hit F12 as it boots to bring up boot menu
+7. In boot menu select the flash drive containing ESXI ISO image
+8. Select boot64.efi
+9. Setup a static IP address for the ESXI host
+10. Then you can connect to the ESXI host by typing the static IP address in a web browser
 
 ## Create a VM with Windows Server on it
 1. Go to microsoft.com and download the Windows Server ISO

@@ -25,3 +25,8 @@ pass: "press enter"
 
 ## Download file from FTP and put in current directory
 `get <file_name>`
+
+## View shares using SMB on a target (Mac OS)
+`smbutil view -g smb://<ip_addr>` 
+on other machines you can use smbclient or smbmap
+
