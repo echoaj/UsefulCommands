@@ -30,3 +30,8 @@ pass: "press enter"
 `smbutil view -g smb://<ip_addr>` 
 on other machines you can use smbclient or smbmap
 
+## How to hack phone numbers
+1. Go to google cloud console
+2. `docker pull sundowndev/phoneinfoga:latest`
+3. `docker run -it -p 8080:8080 sundowndev/phoneinfoga serve -p 8080`
+
