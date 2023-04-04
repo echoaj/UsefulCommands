@@ -205,3 +205,8 @@ function gall() {
     git push
 }
 ```
+
+## Test NTP time source
+chronyc tracking 
+timedatectl
+chronyc sources -v
