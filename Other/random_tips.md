@@ -69,3 +69,6 @@ sudo make install
 ```
 Then repull the USB Adapter and it should work.\
 [Source](https://github.com/brektrou/rtl8821CU)
+
+Make an iso file from a folder
+hdiutil makehybrid -iso -joliet -o output.iso input_folder
