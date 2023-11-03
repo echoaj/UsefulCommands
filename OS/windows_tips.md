@@ -70,3 +70,6 @@ Enter Y and re-run the script.
 `
 ## View bytes of a file in human readable format
 `Format-Hex <file_name>`
+
+## Check if an Inbound connection to a port exists
+`Get-NetFirewallRule -Direction Inbound | Where-Object { $_.Enabled -eq 'True' } | Get-NetFirewallPortFilter | Where-Object { $_.LocalPort -eq 5986 } | Format-List`
