@@ -22,7 +22,7 @@
 
 <br>
 
-# Power Shell
+# PowerShell
 ## Commands
 ### Display aliases
 `get-alias`
@@ -73,3 +73,6 @@ Enter Y and re-run the script.
 
 ## Check if an Inbound connection to a port exists
 `Get-NetFirewallRule -Direction Inbound | Where-Object { $_.Enabled -eq 'True' } | Get-NetFirewallPortFilter | Where-Object { $_.LocalPort -eq 5986 } | Format-List`
+
+## Copy a file from one VM to another
+`Copy-Item -Path .\bbasewin10stig.cer` -Destination \\192.168.4.170\c$\bbasewin10stig.cer
