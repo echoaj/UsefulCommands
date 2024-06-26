@@ -14,5 +14,8 @@
 `lsof -i :3000`
 `kill -9 $(lsof -ti:3000)`
 
-## View bytes of a file in human readable format
+### View bytes of a file in human readable format
 `hexdump -C <file_name>`
+
+### Find any item by name irrespective to folder visibility
+`sudo find / -type f -name "*Screen Recording*" 2>/dev/null`
