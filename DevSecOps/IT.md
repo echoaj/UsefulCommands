@@ -15,7 +15,6 @@
 ## How to extend ESXI free license
 https://www.ituda.com/vmware-esxi-how-to-extend-the-license-expiration-period-of-an-esxi-server/#:~:text=The%20evaluation%20period%20is%2060,will%20disconnect%20from%20vCenter%20Server.
 
-
 ## Create a VM with Windows Server on it
 1. Go to microsoft.com and download the Windows Server ISO
 2. Connect to ESXI host and log in

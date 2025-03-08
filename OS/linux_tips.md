@@ -210,3 +210,13 @@ function gall() {
 chronyc tracking 
 timedatectl
 chronyc sources -v
+
+# Debian
+Display listening port numbers: `sudo lsof -nP -iTCP -sTCP:LISTEN`\
+Set inbound rule for listening port number: `iptables -A INPUT -p tcp --dport 8000 -j ACCEPT`\
+View iptable rules by number: `sudo iptables -L --line-numbers`\
+Delete iptable rule by number: `sudo iptables -D INPUT 1`
+Save iptable rules persistantly: `sudo apt install iptables-persistent`
+Save iptable rules persistantly: `sudo netfilter-persistent save`
+Ping a machine on specific port number: `nmap -p 80 example.com`
+
