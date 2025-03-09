@@ -14,5 +14,5 @@ vncpasswd
 vncserver   # may not work
 tigervncserver -xstartup /usr/bin/xterm     # try this
 vncserver -list     # see if vncserver is running
-
+ss -tulnp           # to verify the service is listening
 ```
