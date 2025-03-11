@@ -3,16 +3,10 @@
 ## Mac to Debian
 
 ### Instal VNC Server on Debian
+Follow this Guide: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-0 \
+Add these lines to **~/.vnc/xstartup**
 ```
-sudo apt update
-sudo apt install tigervnc-standalone-server
-```
-### Configure VNC Server on Debian
-Set Password
-```
-vncpasswd
-vncserver   # may not work
-tigervncserver -xstartup /usr/bin/xterm     # try this
-vncserver -list     # see if vncserver is running
-ss -tulnp           # to verify the service is listening
+#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &
 ```
