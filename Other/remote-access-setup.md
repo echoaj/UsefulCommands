@@ -4,9 +4,13 @@
 
 ### Instal VNC Server on Debian
 Follow this Guide: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-0 \
+Install XFCE `sudo apt-get install xfce4 xfce4-goodies`
 Add these lines to **~/.vnc/xstartup**
 ```
-#!/bin/bash
-xrdb $HOME/.Xresources
-startxfce4 &
+##### XFCE GUI ##### 
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+xIdb SHOME/.Xresources
+startlxde &
+####################
 ```
