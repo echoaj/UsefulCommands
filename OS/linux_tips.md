@@ -162,7 +162,7 @@ Then you must restart linux.
 ## Display source/binary file of a command
 `whereis <command>`
 
-## Install Oh My Zsh
+## Install Oh My ZSH
 1. Install zsh: `sudo apt install zsh`
 2. Install oh-my-zsh: `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
 3. Create custom theme: `gedit ~/.oh-my-zsh/themes/echoaj.zsh-theme`
