@@ -72,3 +72,8 @@ Then repull the USB Adapter and it should work.\
 
 Make an iso file from a folder
 hdiutil makehybrid -iso -joliet -o output.iso input_folder
+
+## Mac to Windows connection
+### Finder > Go
+File share: `smb://192.168.1.178`\
+Remote Desktop: `vnc://192.168.1.178`
