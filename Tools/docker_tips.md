@@ -1,5 +1,3 @@
-
-
 # Docker
 ## Notes
 * When you run a docker image, if it doesn't find it in your library it will downloaded it from a library  online for you.
